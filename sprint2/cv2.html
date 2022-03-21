@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <script src="https://kit.fontawesome.com/255176e611.js" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet" />
+   <link rel="stylesheet" href="./styles/cv.css" />
+   <link rel="stylesheet" href="./styles/cv2.css" />
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Alina's online CV</title>
+
+   <meta property="og:url" content="" />
+   <meta property="og:type" content="website" />
+   <meta property="og:title" content="online cv" />
+   <meta property="og:description" content="online cv demo" />
+   <meta property="og:image" content="" />
+
+   <meta name="twitter:card" content="summary_large_image" />
+   <meta name="twitter:title" content="online cv" />
+   <meta name="twitter:description" content="online cv demo" />
+   <meta property="twitter:url" content="" />
+   <meta property="twitter:image" content="" />
+</head>
+
+<body>
+   <nav>
+      <ul>
+         <li><a href="cv.html">About Me</a></li>
+         <li><a href="cv2.html">My Skills and Projects</a></li>
+         <li><a href="cv3.html">Let's Work Together!</a></li>
+      </ul>
+   </nav>
+   <header>
+      <div id="photo-square-wrap">
+         <img id="profile-photo" src="./img/IMG_4199.jpg" alt="profile-photo" />
+      </div>
+      <div id="header">
+         <h1>Alina Pakamorytė</h1>
+         <p>Full-Stack Developer</p>
+      </div>
+   </header>
+   <section class="grid">
+      <div id="short-description">
+         <div id="skills">
+            <h2>My Skills</h2>
+            <ul>
+               <li id="html">HTML</li>
+               <li id="css">CSS</li>
+               <li id="js">JS</li>
+               <li id="react">React</li>
+               <li id="php">PHP</li>
+               <li id="sql">SQL</li>
+            </ul>
+         </div>
+      </div>
+      <div id="long-description">
+         <h2>My Projects</h2>
+
+         <div class="projects">
+            <input type="radio" id="tab1" name="tabs" checked="checked">
+            <label for="tab1">HTML Projects</label>
+            <div class="projects-wrap">
+               <ul>
+                  <li><a href="https://alinapak.github.io/BitHTML/lecture1/basic-tags">Basic Tags</a></li>
+                  <li><a href="https://alinapak.github.io/BitHTML/lecture2/imagePlacehold">PlaceHold</a></li>
+                  <li><a href="https://alinapak.github.io/BitHTML/lecture3/forms">Forms</a></li>
+                  <li><a href="https://alinapak.github.io/BitHTML/lecture4/portfolio-demo">Portfolio-demo</a></li>
+                  <li><a href="https://alinapak.github.io/BitHTML/sprint1/pages/blogHomePage.html">Blog Page</a></li>
+               </ul>
+            </div>
+            <input type="radio" id="tab2" name="tabs"/>
+            <label for="tab2">CSS Projects</label>
+            <div class="projects-wrap">
+               <ul>
+                  <li><a href="https://alinapak.github.io/BitCSS/lecture1/receptai.html">Animated Page</a></li>
+                  <li><a href="https://alinapak.github.io/BitCSS/lecture2/index.html">Example Page</a></li>
+                  <li><a href="https://alinapak.github.io/BitCSS/lecture3/example.html">Second Example Page</a></li>
+                  <li><a href="https://alinapak.github.io/BitCSS/lecture4/footer-icon-flex.html">Footer Page</a></li>
+               </ul>
+            </div>
+            <input type="radio" id="tab3" name="tabs">
+            <label for="tab3">Future Projects</label>
+            <div class="projects-wrap">
+               <ul>
+                  <li><a href="#">Future Portfolio Page</a></li>
+                  <li><a href="#">JavaScript</a></li>
+                  <li><a href="#">PHP</a></li>
+               </ul>
+
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div id="footer-flex">
+        <div id="main-footer">
+          <div id="icon-section">
+            <h3>You can find me at</h3>
+            <a href="https://www.facebook.com/" <i class="fa-brands fa-facebook"></i> </a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/alinapak"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div id="contacts-section">
+            <h3>Contacts</h3>
+            <div id="contacts">
+              <div id="contacts-name">
+                <ul>
+                  <li>Address</li>
+                  <li>Phone</li>
+                  <li>Email</li>
+                  <li>Portfolio</li>
+                </ul>
+              </div>
+              <div id="contacts-content">
+                <ul>
+                  <li>Klaipėda, Lithuania</li>
+                  <li>+37066666666</li>
+                  <li>alina.pakamoryte@gmail.com</li>
+                  <li><a href="#">www.future-portfolio.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="last-footer">
+          <p> &#169; 2022 by Alina Pakamorytė</p>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>

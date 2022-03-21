@@ -30,7 +30,7 @@ h2 {
   font-size: 2rem;
   text-transform: uppercase;
   color: #494949;
-  padding: 1rem;
+  padding-bottom: 3rem;
 }
 h3 {
   border-bottom: white 1px solid;
@@ -68,12 +68,6 @@ header p {
   justify-self: center;
   grid-area: b;
 }
-/* nav {
-   display:flex;
-   position:fixed;
-   top:0;
-   align-items:flex-end;
-} */
 nav ul {
   display: flex;
   gap: 1rem;
@@ -107,7 +101,7 @@ nav ul a:hover {
   font-style: italic;
   font-weight: lighter;
 }
-#grid {
+.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
@@ -117,12 +111,8 @@ nav ul a:hover {
 #short-description {
   grid-area: a;
   justify-self: center;
-}
-#long-description {
-  grid-area: b;
-  justify-self: center;
-  border-left: #006798 solid;
-  padding-left: 4rem;
+  border-right: #006798 solid;
+  padding-right: 4rem;
   border-image: linear-gradient(
       to bottom,
       #014e80,
@@ -133,9 +123,14 @@ nav ul a:hover {
     )
     1;
 }
+#long-description {
+  grid-area: b;
+  justify-self: center;
+}
 #long-description p {
   line-height: 1.5rem;
   text-align: justify;
+  padding-bottom:3rem;
 }
 .experience-title {
   color: #006798;
@@ -209,9 +204,12 @@ nav ul a:hover {
   text-align: center;
   border-color: #006798 #d4d3cf #d4d3cf #d4d3cf;
 }
-#footer-grid {
+#main-footer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "a b b";
+  margin-top: 2rem;
   background-color: #00b8d4;
   padding: 2rem;
   color: white;
@@ -233,6 +231,32 @@ nav ul a:hover {
    font-style:italic;
 }
 #contacts-section {
-   border-left:white solid thin;
-   padding-left:4rem;
+  grid-area:b;
+  margin-left:4rem;
+   /* border-left:white solid thin;
+   padding-left:4rem; */
+}
+#contacts-section a {
+  text-decoration: none;
+color:white;
+font-weight: bold;
+}
+#icon-section {
+  border-right:white solid thin;
+  padding-left:2rem;
+}
+#icon-section a {
+font-size:1.5rem;
+padding:0.5rem;
+text-decoration: none;
+color:white;
+}
+#footer-flex p {
+  font-size: smaller;
+ background-color: #00b8d4;
+ color:white;
+ text-align: center;
+ border-top:1px white solid;
+ padding-top:1rem;
+ margin-bottom:0
 }
