@@ -19,8 +19,8 @@ padding:0 0.5rem 0 0.5rem;
 .projects {
    display:flex;
    flex-wrap: wrap;
-   max-width:48rem;
 }
+
 .projects input[type="radio"] {
    display:none;
 }
@@ -30,7 +30,7 @@ padding:0 0.5rem 0 0.5rem;
    color:white; 
    font-weight: bold;
    border-radius: 1rem 1rem 0 0;
-   width:16rem;
+   width:30%;
    border:1px solid white;
 }
 .projects label:hover {
@@ -38,7 +38,7 @@ padding:0 0.5rem 0 0.5rem;
    color:#006798;
 }
 .projects .projects-wrap {
-   width:100%;
+   width:90%;
    background-color: #D4D3CF;
    order:1;
    display:none;

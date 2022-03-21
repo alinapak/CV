@@ -18,6 +18,28 @@ body {
     )
     1;
 }
+nav ul {
+  display: flex;
+  gap: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: flex-end;
+  background-color: #014e80;
+}
+nav ul li {
+  list-style: none;
+  padding: 1rem;
+}
+nav ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+nav ul a:hover {
+  border-bottom: white 1px solid;
+}
 h1 {
   font-size: 7rem;
   width: min-content;
@@ -68,39 +90,7 @@ header p {
   justify-self: center;
   grid-area: b;
 }
-nav ul {
-  display: flex;
-  gap: 1rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  justify-content: flex-end;
-  background-color: #014e80;
-}
-nav ul li {
-  list-style: none;
-  padding: 1rem;
-}
-nav ul a {
-  text-decoration: none;
-  color: white;
-  font-weight: bolder;
-}
-nav ul a:hover {
-  border-bottom: white 1px solid;
-}
-.education-title {
-  font-size: 1.5rem;
-  padding: 1rem;
-  color: #014e80;
-}
-.education-info ul li {
-  list-style: none;
-  line-height: 1.5rem;
-  font-style: italic;
-  font-weight: lighter;
-}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -125,13 +115,25 @@ nav ul a:hover {
 }
 #long-description {
   grid-area: b;
-  justify-self: center;
+  padding-left:2rem;
 }
 #long-description p {
   line-height: 1.5rem;
   text-align: justify;
   padding-bottom:3rem;
 }
+.education-title {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #014e80;
+}
+.education-info ul li {
+  list-style: none;
+  line-height: 1.5rem;
+  font-style: italic;
+  font-weight: lighter;
+}
+
 .experience-title {
   color: #006798;
   line-height: 2rem;

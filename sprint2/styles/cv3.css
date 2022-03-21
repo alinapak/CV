@@ -4,10 +4,12 @@ label {
    color:#006798;
 }
 .form {
-   width:50rem;
+   display:block;
+   max-width:100%;
    background-color: #D4D3CF;
    border-radius:1rem;
    padding:1rem;
+   margin-left:1rem;
 }
 .form p {
    color:#006798;
@@ -26,7 +28,7 @@ input[type=text], textarea {
    border-style: hidden;
  }
  input[type=submit] {
-   width: 10%;
+   width:fit-content;
    padding: 0.5rem;
    margin-top:1rem;
    margin-left:1rem;
