@@ -53,6 +53,7 @@ h2 {
   text-transform: uppercase;
   color: #494949;
   padding-bottom: 3rem;
+  padding-top:2rem;
 }
 h3 {
   border-bottom: white 1px solid;
@@ -261,4 +262,68 @@ color:white;
  border-top:1px white solid;
  padding-top:1rem;
  margin-bottom:0
+}
+@media screen and (max-width:64rem)
+{
+h1 {font-size:5rem;}
+#photo-square-wrap {
+  max-width: 15rem;
+  max-height: 15rem;
+}
+.grid {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+#short-description {
+  width:100%;
+  border-right: none;
+  border-bottom:#006798 solid;
+  border-image: linear-gradient(
+      to right,
+      #014e80,
+      #006798,
+      #0082af,
+      #009dc3,
+      #00b8d4
+    )
+    1;
+    padding-bottom: 3rem;
+    padding-right: 0;
+}
+#education {
+ margin:0 auto;
+ width:fit-content;
+}
+#skills {
+  margin:0 auto;
+  width:fit-content;
+}
+}
+@media screen and (max-width:50rem)
+{
+header {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 3rem;
+}
+header p {
+  font-size: 1rem;
+}
+#education {
+  margin:0 auto;
+  width:fit-content;
+ }
+ #skills {
+   margin:0 auto;
+   width:fit-content;
+/* .grid {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+} */
+}
 }
