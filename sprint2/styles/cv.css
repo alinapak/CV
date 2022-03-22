@@ -280,7 +280,7 @@ header p {
   #short-description {
     width: 100%;
     border-right: none;
-    order:1;
+    order: 1;
   }
   #long-description {
     width: 100%;
@@ -294,8 +294,8 @@ header p {
         #00b8d4
       )
       1;
-      padding-bottom: 3rem;
-      padding-left:1rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
   }
   #education {
     margin: 0 auto;
