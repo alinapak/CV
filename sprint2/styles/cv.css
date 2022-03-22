@@ -331,7 +331,6 @@ header p {
   margin:0 auto;
 }
 #contacts-section {
-  width:fit-content;
-  margin:0 auto;
+display:none;
 }
 }
