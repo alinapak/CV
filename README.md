@@ -19,4 +19,4 @@ This CV web page contains three html files. Each html file has four main section
 ## External Recourses
 
 There was used icons from https://fontawesome.com .
-Icons was used by adding a <script> tag in html <head> section.
+Icons was used by adding a <script> tag in html < head > section.
