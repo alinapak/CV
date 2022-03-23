@@ -20,3 +20,7 @@ This CV web page contains three html files. Each html file has four main section
 
 There was used icons from https://fontawesome.com .
 Icons was used by adding a <script> tag in html < head > section.
+  
+  ## Reference
+  
+  Quick link to check this webpage: https://alinapak.github.io/CV/sprint2/cv.html .
