@@ -60,3 +60,6 @@ input[type="submit"]:hover {
    color:#006798;
    padding:0.5rem;
 }
+::placeholder {
+  font-family: "Inter", sans-serif;
+}
