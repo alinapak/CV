@@ -80,8 +80,8 @@ header p {
 }
 #photo-square-wrap {
   grid-area: a;
-  max-width: 20rem;
-  max-height: 20rem;
+  max-width: 17rem;
+  max-height: 17rem;
   border-radius: 50%;
   overflow: hidden;
   justify-self: center;
@@ -268,8 +268,8 @@ header p {
     font-size: 5rem;
   }
   #photo-square-wrap {
-    max-width: 15rem;
-    max-height: 15rem;
+    max-width: 13rem;
+    max-height: 13rem;
   }
   .grid {
     display: flex;
